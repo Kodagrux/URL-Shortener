@@ -1,0 +1,260 @@
+section#photo {
+	background: url(../img/bg/buffalo.jpg) no-repeat center center;
+	height: 407px;
+	padding-top: 1px;
+	position: relative;
+	margin-top: 95px;
+}
+
+section.wrapper {
+	padding-top: 60px;
+}
+
+div.profile_pic {
+	border-radius: 150px;
+	margin: 0px 30px 20px auto;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5), inset 0px 0px 0px 3px rgba(255,255,255,0.3), inset 0px 0px 0px 1px rgba(0,0,0,0.3);
+	/* inset 0px 0px 0px 7px rgba(255,255,255,1)*/
+	//float: left; 	
+	height: 170px;
+	width: 170px;
+	//position: absolute;
+	margin: 50px auto auto auto; 
+}
+
+h2 {
+	margin-top: 20px;
+	margin-bottom: 12px;
+	padding-top: 0px;	
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+span.profile_headers {
+	font-weight: bold;
+	line-height: 140%;
+
+}
+
+div.bio {
+	margin-top: 12px;
+	line-height: 140%;
+}
+
+div.profile_info {
+	width: 70%;
+	height: 45%;
+	bottom: 0px;
+	padding-left: 15%;
+	padding-right: 15%;
+	//margin: auto auto 0px auto;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	color: white;
+	text-align: center;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.9);
+
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
+/*********************
+
+		LINKS
+
+*********************/
+
+td, th {
+	//border: 1px solid rgba(0,0,0,0.3);
+	border: none;
+	padding: 3px 5px 3px 5px;
+	font-size: 13px;
+	 
+}
+
+td {
+	padding-top: 8px;
+	padding-bottom: 11px;
+	//background-color: green;
+}
+
+tr.listheaders {
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+tr.listitem1, tr.listitem2 {
+	border-bottom: 1px solid black;
+}
+
+tr.listitem1 {
+	background-color: rgba(0,0,0,0.02);
+}
+
+tr.listitem2 {
+	background-color: rgba(0,0,0,0.05);
+}
+
+tr.listitem1:hover, tr.listitem2:hover  {
+	background-color: rgba(0,120,255,0.10);
+	box-shadow: inset 0px 0px 0px 1px rgba(0,120,255,0.2);
+}
+
+
+
+th {
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 20px;
+	padding-top: 13px;
+	padding-bottom: 12px;
+	//border-radius: 4px 4px 0px 0px;
+	background-color: #333333;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.9);
+}
+
+table {
+	width: 100%;
+	padding: 0px;
+	margin: 20px 0px 0px 0px; 
+	border: 1px solid rgba(0,0,0,0.14);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+td.icon, th.icon {
+	width: 34px;
+	padding-left: 10px;
+}
+
+td.icon img {
+	margin: 3px -8px -3px 8px; 
+}
+
+td.src, th.src {
+
+}
+
+td.short, th.short {
+	width: 85px;
+}
+
+td.clicks, th.clicks {
+	width: 55px;
+}
+
+td.time, th.time {
+	width: 70px;
+}
+
+td.edit, th.edit {
+	padding-right: 0px;
+	width: 90px;
+}
+
+
+
+
+
+/*********************
+
+		FORM
+
+*********************/
+
+section.add_new_link {
+	width: 93%;
+	background-color: #e6e6e6;
+	margin: -1px auto auto auto;
+	padding: 8px;
+	border-radius: 0px 0px 5px 5px;
+	border: 1px solid rgba(0,0,0,0.14);
+}
+
+input[type=submit] {
+	float: right;
+	margin-top: 0px;
+	width: 110px;
+	height: 35px;
+	//box-shadow: 0px 1px 2px rgba(0,0,0,0.35);
+	border-radius: 5px;
+	border: 1px solid #234896;
+	height: 30px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.field {
+	height: 28px;
+	width: 608px;
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+.field:hover {
+	border: 1px solid rgba(0,0,0,0.4);
+}
+
+.field:focus {
+	border: 1px solid rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

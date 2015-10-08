@@ -1,0 +1,85 @@
+form {
+	width: 368px;
+	float: right;
+	margin-right: 20px;
+}
+
+textarea {
+	height: 100px;
+	width: 350px;
+	font-family: 'Helvetica Neue', 'Helvetica CY', Helvetica, 'Avenir', sans-serif;
+	padding: 8px 8px;
+	resize: none;
+
+	display: inline-block;
+
+	font-size: 14px;
+	color: #333333;
+
+	-webkit-appearance: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: 1px solid #d5d5d5;
+}
+
+.field {
+	width: 95%;
+}
+
+textarea:hover {
+	border: 1px solid #b9b9b9;
+}
+
+textarea:focus {
+	outline: none;
+	border: 1px solid #5A5A5A;
+}
+
+.ok, .ok:focus, .ok:hover {
+	border: 1px solid #5a8e22;
+	//border: 1px solid #4d91fe;
+}
+
+.deny, .deny:focus, .deny:hover {
+	border: 1px solid #fd4239;
+	//border: 1px solid #5A5A5A;
+}
+
+div.profile_pic {
+	border-radius: 150px;
+	margin: 0px 30px 20px auto;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5), inset 0px 0px 0px 3px rgba(255,255,255,0.3), inset 0px 0px 0px 1px rgba(0,0,0,0.3);
+	/* inset 0px 0px 0px 7px rgba(255,255,255,1)*/
+	//float: left; 	
+	height: 200px;
+	width: 200px;
+	//position: absolute;
+	margin: 40px auto 35px auto; 
+}
+
+section.avatar {
+	//background-color: green;
+	float: left;
+	width: 290px;
+	padding: 0px 30px 0px 30px;
+	text-align: center;
+	
+}
+
+section.avatar p{
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+section.wrapper {
+	padding-top: 150px;
+}
+
+#submit {
+	height: 46px;
+}
