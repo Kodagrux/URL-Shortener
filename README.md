@@ -4,7 +4,7 @@ This was originally just made as a school project (in a cource about databases) 
 ### Views
 Here are some views from the website:
 #### Start
-![](https://github.com/Kodagrux/URL-shortener/blob/master/start.png)
+![asda](https://github.com/Kodagrux/URL-shortener/blob/master/start.png)
 
 ### License
 GNU v.3, see the [license](https://github.com/Kodagrux/URL-shortener/blob/master/LICENSE.txt). 
